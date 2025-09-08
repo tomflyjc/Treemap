@@ -6,5 +6,10 @@ qgisMinimumVersion=3.0
 author=Jean-Christophe Baudin
 email=jeanchristophebaudin@ymail.com
 icon=Treemap_icon1.png
-about=This plugin allows you to create a treemap visualization from polygon layers, with optional second-level subdivision based on a second categorical attribute.
-
+description=This plugin allows you to create a treemap visualization from polygon layers, with optional second-level subdivision based on a second categorical attribute.
+about=To avoid performance issues and recursion errors, the plugin limits the number of categories: maximum 50 unique categories for the selected attribute.
+tracker=https://github.com/tomflyjc/Treemap
+repository=https://github.com/tomflyjc/Treemap
+; category=Vector
+ changelog=plugin versions :  1.0 - First stable release
+;tags= Vector, polygons, Treemap
