@@ -1,4 +1,6 @@
 # coding=utf-8
+# (c) JC BAUDIN 2025 09 07
+ 
 from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QTabWidget, QWidget, QTextEdit, QPushButton, QMessageBox,
     QScrollArea, QTextBrowser, QLineEdit, QComboBox, QHBoxLayout, QLabel, QFileDialog,
@@ -414,4 +416,5 @@ class MainPluginTreemap:
 
     def run(self):
         dialog = TreemapDialog(parent=self.iface.mainWindow(), iface=self.iface)
+
         dialog.exec_()
