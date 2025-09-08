@@ -1,4 +1,24 @@
 # coding=utf-8
+"""
+/***************************************************************************
+treemap plugin
+                                 A QGIS plugin
+ Projette des points sur une ligne/bordure de polygone à la distance la plus courte: "ClosestPoint"
+                              -------------------
+        begin                : 2025-09-07
+        copyright            : (C) 2025 by Jean-Christophe Baudin  
+        email                : jean-christophe.baudin@ymail.com
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+"""
 # (c) JC BAUDIN 2025 09 07
  
 from PyQt5.QtWidgets import (
@@ -418,3 +438,4 @@ class MainPluginTreemap:
         dialog = TreemapDialog(parent=self.iface.mainWindow(), iface=self.iface)
 
         dialog.exec_()
+
