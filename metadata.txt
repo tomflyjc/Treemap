@@ -1,0 +1,10 @@
+[general]
+name=Treemap Generator
+description=Generate a treemap layer from polygon layers, with support for two levels of categorical attributes.
+version=1.0
+qgisMinimumVersion=3.0
+author=Jean-Christophe Baudin
+email=jeanchristophebaudin@ymail.com
+icon=Treemap_icon1.png
+about=This plugin allows you to create a treemap visualization from polygon layers, with optional second-level subdivision based on a second categorical attribute.
+
