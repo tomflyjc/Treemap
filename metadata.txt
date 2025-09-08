@@ -2,7 +2,7 @@
 name=Treemap Generator
 
 version=1.0
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.34
 author=Jean-Christophe Baudin
 email=jeanchristophebaudin@ymail.com
 icon=Treemap_icon1.png
@@ -13,6 +13,7 @@ repository=https://github.com/tomflyjc/Treemap
 category=Vector
 changelog=plugin versions :  1.0 - First stable release
 tags= Vector, polygons, Treemap
+
 
 
 
