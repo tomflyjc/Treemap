@@ -1,6 +1,6 @@
 [general]
 name=Treemap Generator
-description=Generate a treemap layer from polygon layers, with support for two levels of categorical attributes.
+
 version=1.0
 qgisMinimumVersion=3.0
 author=Jean-Christophe Baudin
@@ -13,4 +13,5 @@ repository=https://github.com/tomflyjc/Treemap
 category=Vector
 changelog=plugin versions :  1.0 - First stable release
 tags= Vector, polygons, Treemap
+
 
