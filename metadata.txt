@@ -1,20 +1,22 @@
 [general]
 name=Treemap Generator
-
-version=1.0
+version=1.1
 qgisMinimumVersion=3.34
 author=Jean-Christophe Baudin
 email=jeanchristophebaudin@ymail.com
 icon=Treemap_icon1.png
 description=This plugin allows you to create a treemap visualization from polygon layers as a layer itself in order to directly choose to make it appear in the print composer.
 about=To avoid performance issues and recursion errors, the plugin limits the number of categories: maximum 50 unique categories for the selected attribute.
+
+
 tracker=https://github.com/tomflyjc/Treemap/issues
 repository=https://github.com/tomflyjc/Treemap
+homepage=https://github.com/tomflyjc/Treemap
+ 
 category=Vector
-changelog=plugin versions :  1.0 - First stable release
-tags= Vector, polygons, Treemap
+changelog=  plugin versions :  1.1 - GeoPackage layers added as layers tacking into account with shapefiles' ones
 
-
+tags= vector, polygons, Treemap
 
 
 
